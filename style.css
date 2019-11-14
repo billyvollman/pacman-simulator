@@ -1,0 +1,37 @@
+main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff264;
+}
+
+.about-app {
+    border: 5px solid #fff264;
+    padding: 0 40px;
+}
+
+p span {
+    font-weight: bold;
+    font-style: italic
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

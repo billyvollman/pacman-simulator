@@ -1,4 +1,5 @@
-# Pacman Simulator
+# Pᗣᗧ•••MᗣN Simulator
+## ᗧ·····🍒······ᗣ
 
 #### About this web app:
 

@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <main>
+
+        <div class="header">
+            <h1>Pᗣᗧ•••MᗣN Simulator</h1>
+            <div class='subheading'>ᗧ·····🍒······ᗣ</div>
+        </div>
+        
+        <div class='about-app'>
+            <div class='intro'>
+                <h2>About this web app</h2>
+                <p>This is a <span>console.log()</span> app. Please open your console log in your web browser.</p>
+
+                <p>If you are using a <span>Mac</span> computer the keyboard shortcut is <span>CMD + Option + J</span> to open console.</p>
+
+                <p>If you are using a <span>Windows</span> computer the keyboard shortcut is <span>F12</span> to open console.</p>
+            </div>
+            <h2>Please use the following commands to play some Pacman</h2>
+
+            <h3>- place(num, num, string)</h3>
+            <p><span>place()</span> command to place Pacman on the grid in positon X,Y and facing NORTH, SOUTH, EAST or WEST</p>
+
+            Examples of how to place Pacman on the board
+            <ul>
+                <li>place(0, 0, 'west')</li>
+                <li>place(1, 2, 'north')</li>
+                <li>place(0, 4, 'south')</li>
+            </ul>
+
+            <h3>- move()</h3>
+
+            <p><span>move()</span> command will move Pacman one space if it is a valid move.  Pacman will not move if he is located on the edge of the board.</p>
+
+            <h3>- left()</h3>
+            <p><span>left()</span> command will rotate Pacman 90 degrees in the specified direction without changing the position of Pacman.</p>
+
+            <h3>- right()</h3>
+            <p><span>right()</span> command will rotate Pacman 90 degrees in the specified direction without changing the position of Pacman.</p>
+
+            <h3>- report() command</h3>
+            <p><span>report()</span> will announce the X, Y and F of Pacman.</p>
+
+            <h3>- board()</h3>
+            <p><span>board()</span> command will show the Pacman board.</p>
+        </div>
+    </main>
     <script src="pacman.js"></script>
 </body>
 </html>
