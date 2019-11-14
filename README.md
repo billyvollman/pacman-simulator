@@ -1,6 +1,9 @@
 # Pᗣᗧ•••MᗣN Simulator
 ᗧ·····🍒······ᗣ
 
+## Link to web app
+Click link here: [Pᗣᗧ•••MᗣN Simulator](https://billyvollman.github.io/pacman-simulator/)
+
 #### About this web app:
 
 - The application is a code challenge for simulation of Pacman moving on a grid, of dimensions 5 units x 5 units.
@@ -56,7 +59,7 @@ Output: 0,1,NORTH
 **would give me this Pacman board.  NOTE: Pacman is < symbol and 0 is empty space**
 ```
 
-      east
+      west
 
 s   0,<,0,0,0  n
 o   0,0,0,0,0  o
@@ -64,7 +67,7 @@ u   0,0,0,0,0  r
 t   0,0,0,0,0  t
 h   0,0,0,0,0  h
 
-      west
+      east
 ```
 
 After I knew how the board looked and which way Pacman moved based on a MOVE, LEFT, and RIGHT command, I then went about deciding what user interface I would let users engage with to place Pacman on a board and move Pacman around.  Since Pacman is a classic game and I'm using Javascript I went with the classic **console.log()** on the web browser.
