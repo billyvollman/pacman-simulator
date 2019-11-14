@@ -188,11 +188,11 @@ And board() was used the output should be:
 
 ```
 
-Technologies used
+## Technologies used
 - Javascript
 - Jest
 
-For testing and running Jest
+**For testing and running Jest**
 These are the commands run.
 - npm init -y
 - npm i jest --save-dev
