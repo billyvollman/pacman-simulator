@@ -1,5 +1,5 @@
-<center># Pᗣᗧ•••MᗣN Simulator</center>
-<center>ᗧ·····🍒······ᗣ</center>
+<p align="center"># Pᗣᗧ•••MᗣN Simulator</p>
+<p align="center">ᗧ·····🍒······ᗣ</p>
 
 ## Link to web app
 Click link here: [Pᗣᗧ•••MᗣN Simulator](https://billyvollman.github.io/pacman-simulator/)
