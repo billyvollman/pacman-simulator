@@ -36,7 +36,7 @@ REPORT
 - Pacman must not move off the grid during movement. This also includes the initial placement of Pacman.
 - Any move that would cause Pacman to fall must be ignored.
 
-#### How I approached this challenge
+## How I approached this challenge
 I needed to figure out which language I wanted to do the challenge in and I decided to do it in Javascript.  After I made that decision I went about creating my folder for repo and the necessary files. I also installed the necessary node modules for testing.
 
 Then I spent some time thinking about what the Pacman board looked like especially since origin (0,0) can be considered the SOUTH WEST most corner.  I decided to just draw out the the board on paper and use some of the input and output examples to better understand this setup.
@@ -89,7 +89,7 @@ const directionOfPacMan = {
 }
 ```
 
-#### How to use Pacman simulator
+## How to use Pacman simulator
 
 **place()** command will put the Pacman on the grid in positon **X,Y** and facing **NORTH,SOUTH, EAST or WEST**.
 Please ensure you enter in a X & Y position as a number and facing option as either north, south, east, or west as a string.  If these three are not included the console will complain with an error message.
@@ -187,3 +187,27 @@ And board() was used the output should be:
     0,0,0,0,0
 
 ```
+
+Technologies used
+- Javascript
+- Jest
+
+For testing and running Jest
+These are the commands run.
+- npm init -y
+- npm i jest --save-dev
+
+In **package.json** change the script test wording of scripts section
+from
+```
+“scripts”: {
+ “test”: “echo \“Error: no test specified\” && exit 1"
+},
+```
+
+To
+```
+"test": "jest --watchAll"
+```
+
+In terminal type **npm test**
