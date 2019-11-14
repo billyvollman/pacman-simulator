@@ -91,6 +91,7 @@ const directionOfPacMan = {
 
 ## How to use Pacman simulator
 
+##plac() command
 **place()** command will put the Pacman on the grid in positon **X,Y** and facing **NORTH,SOUTH, EAST or WEST**.
 Please ensure you enter in a X & Y position as a number and facing option as either north, south, east, or west as a string.  If these three are not included the console will complain with an error message.
 
@@ -102,6 +103,7 @@ place(1, 2, 'north')
 place(0, 4, 'south')
 ```
 
+##move() command
 **move()** command will move Pacman one space if it is a valid move.  Pacman will not move if he is located on the edge of the board
 
 **Example of how to move Pacman on the board**
@@ -122,7 +124,7 @@ And the board will apper like this if board() function is called
     0,0,0,0,0
 
 ```
-
+## left(), right(), & report() commands
 **left()** command will rotate Pacman 90 degrees in the specified direction without changing the position of Pacman.
 
 **right()** command will rotate Pacman 90 degrees in the specified direction without changing the position of Pacman.
@@ -157,6 +159,7 @@ The output will be:
 
 ```
 
+## board() command
 **board()** command will show the Pacman board.
 
 **Example of how board() works**
@@ -193,7 +196,7 @@ And board() was used the output should be:
 - Jest
 
 **For testing and running Jest**
-These are the commands run.
+These are the commands to install and run jest.  Done at the folder level.
 - npm init -y
 - npm i jest --save-dev
 
