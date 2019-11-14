@@ -1,4 +1,4 @@
-<p align="center"># Pᗣᗧ•••MᗣN Simulator</p>
+<p text-align="center" font-size="32px">Pᗣᗧ•••MᗣN Simulator</p>
 <p align="center">ᗧ·····🍒······ᗣ</p>
 
 ## Link to web app
