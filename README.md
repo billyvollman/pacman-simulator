@@ -134,20 +134,56 @@ And the board will apper like this if board() function is called
 ```
 Let's assume Pacman is already on the board in a valid space.
 For example this was the oiriginal place call.
+
     place(0,0,'north')
 
 If you type the following:
+
     left()
     report()
 
 The output will be:
+
     0, 0, WEST
 
 Then if you type:
+
     right()
     report()
 
-The output will be    
+The output will be:
+
     0, 0, NORTH
+
+```
+
+**board()** command will show the Pacman board.
+
+**Example of how board() works**
+
+```
+If Pacman was on this place:
+
+    place(0,0,'north')
+
+And board() was used the output should be:
+
+    <,0,0,0,0
+    0,0,0,0,0
+    0,0,0,0,0
+    0,0,0,0,0
+    0,0,0,0,0
+
+If Pacman was on this place:
+
+    place(2,2,'north')
+
+And board() was used the output should be:
+
+    0,0,0,0,0
+    0,0,0,0,0
+    0,0,<,0,0
+    0,0,0,0,0
+    0,0,0,0,0
 
 ```
