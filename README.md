@@ -106,20 +106,20 @@ place(0, 4, 'south')
 
 **Example of how to move Pacman on the board**
 ```
-place(0,0,'north')
-move()
+    place(0,0,'north')
+    move()
 
-Should result in the following if **report()** function is called
+Should result in the following if report() function is called
 
-0, 1, NORTH
+    0, 1, NORTH
 
-And the board will apper like this if **board()** function is called
+And the board will apper like this if board() function is called
 
-0,<,0,0,0
-0,0,0,0,0
-0,0,0,0,0
-0,0,0,0,0
-0,0,0,0,0
+    0,<,0,0,0
+    0,0,0,0,0
+    0,0,0,0,0
+    0,0,0,0,0
+    0,0,0,0,0
 
 ```
 
@@ -132,19 +132,22 @@ And the board will apper like this if **board()** function is called
 **Example of how left(), right(), and report() work**
 
 ```
-Let's assume Pacman is already on the board in a valid space.  For example this was the oiriginal place call.
-place(0,0,'north')
+Let's assume Pacman is already on the board in a valid space.
+For example this was the oiriginal place call.
+    place(0,0,'north')
 
 If you type the following:
-**left()**
-**report()**
+    left()
+    report()
 
 The output will be:
-**0, 0, WEST**
+    0, 0, WEST
 
 Then if you type:
-**right()**
-**report()**
-0, 0, NORTH
+    right()
+    report()
+
+The output will be    
+    0, 0, NORTH
 
 ```
